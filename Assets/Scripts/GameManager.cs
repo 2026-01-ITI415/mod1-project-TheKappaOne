@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
         if (scoreText != null)
             scoreText.text = "Score: " + score;
-    }
+    }   
     void GameOver()
     {
         gameOver = true;
